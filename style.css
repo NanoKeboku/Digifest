@@ -736,11 +736,12 @@ p {
 
   .carousel-inner {
     /* background-color: blue; */
-    height: 100vh;
+    height: 60vh; /* Sesuaikan dengan kebutuhan Anda */
   }
 
   .carousel-item {
-    height: 60vh; /* Sesuaikan dengan kebutuhan Anda */
+    height: 60vh;
+    min-width: none; /*c Sesuaikan dengan kebutuhan Anda */
   }
 
   .carousel-item img {
