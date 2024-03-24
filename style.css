@@ -739,6 +739,11 @@ p {
     height: 100vh;
   }
 
+  .carousel-item {
+    min-height: auto;
+    height: 100%;
+  }
+
   .carousel-item img {
     height: 100vh;
     object-fit: cover;
@@ -907,6 +912,10 @@ p {
   .kategori button i,
   .kategori button p {
     font-size: 16px;
+  }
+
+  .kategori-tab {
+    min-height: 500px;
   }
 
   .content1 {
