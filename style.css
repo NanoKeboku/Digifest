@@ -949,7 +949,17 @@ p {
   #carouselExampleFade,
   .carousel-inner {
     background-color: blue;
-    height: 100vh;
+    min-height: 60vh;
+  }
+
+  .carousel-inner {
+    /* background-color: blue; */
+    height: 60vh; /* Sesuaikan dengan kebutuhan Anda */
+  }
+
+  .carousel-item {
+    height: 60vh;
+    min-width: none; /*c Sesuaikan dengan kebutuhan Anda */
   }
 
   .carousel-control-prev span,
