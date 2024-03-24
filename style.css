@@ -158,7 +158,7 @@ header {
 }
 
 #carouselExampleFade {
-  height: 100vh;
+  /* height: 100vh; */
   overflow: hidden;
 }
 
@@ -166,13 +166,13 @@ header {
 .carousel-item,
 .carousel-img {
   /* background-color: blue; */
-  min-height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
+  min-height: 800px; /* Sesuaikan dengan kebutuhan Anda */
 }
 
 .carousel,
 .carousel-item {
   width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .carousel-fade {
