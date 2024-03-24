@@ -162,6 +162,13 @@ header {
   overflow: hidden;
 }
 
+.carousel-inner,
+.carousel-item,
+.carousel-img {
+  /* background-color: blue; */
+  min-height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
+}
+
 .carousel,
 .carousel-item {
   width: 100%;
@@ -709,6 +716,21 @@ p {
   transform: scale(0.95) rotateZ(1.7deg);
 }
 
+/* @media (max-width: 1064px) {
+  #carouselExampleFade {
+    height: 800px;
+  }
+  .carousel-inner,
+  .carousel-item,
+  .carousel-img {
+    min-height: 100vh; 
+
+  .carousel-item {
+    height: 60vh;
+    min-width: none;
+  }
+} */
+
 @media (max-width: 961px) {
   #navbar button {
     top: 15px;
@@ -736,7 +758,7 @@ p {
 
   .carousel-inner {
     /* background-color: blue; */
-    height: 60vh; /* Sesuaikan dengan kebutuhan Anda */
+    height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
   }
 
   .carousel-item {
