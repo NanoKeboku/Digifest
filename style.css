@@ -740,8 +740,7 @@ p {
   }
 
   .carousel-item {
-    min-height: auto;
-    height: 100%;
+    height: 60vh; /* Sesuaikan dengan kebutuhan Anda */
   }
 
   .carousel-item img {
