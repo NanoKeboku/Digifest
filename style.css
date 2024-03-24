@@ -165,7 +165,8 @@ header {
 .carousel-inner,
 .carousel-item,
 .carousel-img,
-#carouselExampleFade {
+#carouselExampleFade,
+.hero {
   /* background-color: blue; */
   min-height: 800px; /* Sesuaikan dengan kebutuhan Anda */
 }
@@ -947,7 +948,7 @@ p {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 960px) {
   #navbar,
   .navbar-fixed {
     padding: 0;
@@ -973,6 +974,15 @@ p {
   .carousel-inner {
     background-color: blue;
     height: 100vh;
+  }
+
+  .carousel-inner,
+  .carousel-item,
+  .carousel-img,
+  #carouselExampleFade,
+  .hero {
+    /* background-color: blue; */
+    min-height: 800px; /* Sesuaikan dengan kebutuhan Anda */
   }
 
   .carousel-control-prev span,
