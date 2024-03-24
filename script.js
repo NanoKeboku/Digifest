@@ -94,23 +94,41 @@ function modalBox(param) {
   }
 }
 
-// const carouselImg = [
-//   "https://media-cdn.tripadvisor.com/media/photo-s/14/11/49/ee/20180809-220112-largejpg.jpg",
-//   "https://gudeg.net/cni-content/uploads/modules/direktori/logo/20161223094354.jpeg",
-//   "https://cdn.idntimes.com/content-images/community/2018/12/5-e3bb41222376563e3281b2f753e07694.jpg",
-// ];
-
-// let currentIndex = 0; // Indeks slide saat ini
-
-// // Fungsi untuk mengubah gambar slide
-// const changeSlide = () => {
-//   // Dapatkan elemen gambar carousel
-//   const carouselImage = document.querySelector(".carousel-img");
-//   // Ganti src gambar dengan gambar baru
-//   carouselImage.src = carouselImg[currentIndex];
-//   // Pindahkan ke indeks slide berikutnya
-//   currentIndex = (currentIndex + 1) % carouselImg.length;
-// };
-
-// // Jalankan fungsi changeSlide setiap 1 detik
-// setInterval(changeSlide, 5000);
+$(document).ready(function () {
+  document.querySelectorAll(".border-nav")[0].style.background = "black";
+  $(".mission-tab .card2").css("display", "flex");
+  $(".inovasi-tab .card2").css("display", "none");
+  $(".jalur-tab .card2").css("display", "none");
+  $(".gift-tab .card2").css("display", "none");
+  $(".tab-misi").click(function () {
+    $(".mission-tab .card2").css("display", "flex");
+    $(".inovasi-tab .card2").css("display", "none");
+    $(".jalur-tab .card2").css("display", "none");
+    $(".gift-tab .card2").css("display", "none");
+    document.querySelectorAll(".border-nav")[0].style.background = "black";
+  });
+  $(".tab-inovasi").click(function () {
+    $(".mission-tab .card2").css("display", "none");
+    $(".inovasi-tab .card2").css("display", "flex");
+    $(".jalur-tab .card2").css("display", "none");
+    $(".gift-tab .card2").css("display", "none");
+    document.querySelectorAll(".border-nav")[0].style.background =
+      "transparent";
+  });
+  $(".tab-jalur").click(function () {
+    $(".mission-tab .card2").css("display", "none");
+    $(".inovasi-tab .card2").css("display", "none");
+    $(".jalur-tab .card2").css("display", "flex");
+    $(".gift-tab .card2").css("display", "none");
+    document.querySelectorAll(".border-nav")[0].style.background =
+      "transparent";
+  });
+  $(".tab-hadiah").click(function () {
+    $(".mission-tab .card2").css("display", "none");
+    $(".inovasi-tab .card2").css("display", "none");
+    $(".jalur-tab .card2").css("display", "none");
+    $(".gift-tab .card2").css("display", "flex");
+    document.querySelectorAll(".border-nav")[0].style.background =
+      "transparent";
+  });
+});

@@ -1,215 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/60bfabd217.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/60bfabd217.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <header>
-    <nav id="navbar">
-      <img src="component/logo-digifest.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
-      <div class="nav-item d-flex position-relative gap-5">
-        <a href="">HOME</a>
-        <a href="" class="raleway">ABOUT</a>
-        <a href="" class="raleway">CATEGORY</a>
-        <a href="" class="raleway">CONTACT US</a>
-      </div>
-      <button class="btn btn-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-        aria-controls="offcanvasRight"><i class="fa-solid fa-bars" style="color: white; font-size: 35px;"></i></button>
-
-    </nav>
-    <div class="navbar-fixed pt-4">
-      <a class="navbar-brand" href="#">
-        <img src="component/logo-digifest.png" alt="Logo" width="30" height="24"
-          class="d-inline-block align-text-top" />
-      </a>
-      <div class="nav-item d-flex position-relative gap-5">
-        <a href="" class="raleway active">HOME</a>
-        <a href="" class="raleway">ABOUT</a>
-        <a href="" class="raleway">CATEGORY</a>
-        <a href="" class="raleway">CONTACT US</a>
-      </div>
-    </div>
-    <button class="btn btn-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-      aria-controls="offcanvasRight"><i class="fa-solid fa-bars" style="color: white; font-size: 35px;"></i></button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body d-flex align-content-center">
-        <div class="right-nav d-flex flex-column">
+  <body>
+    <header>
+      <nav id="navbar">
+        <img
+          src="component/logo-digifest.png"
+          alt="Logo"
+          width="30"
+          height="24"
+          class="d-inline-block align-text-top"
+        />
+        <div class="nav-item d-flex position-relative gap-5">
+          <a href="">HOME</a>
+          <a href="" class="raleway">ABOUT</a>
+          <a href="" class="raleway">CATEGORY</a>
+          <a href="" class="raleway">CONTACT US</a>
+        </div>
+        <button
+          class="btn btn-offcanvas"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+        >
+          <i
+            class="fa-solid fa-bars"
+            style="color: white; font-size: 35px;"
+          ></i>
+        </button>
+      </nav>
+      <div class="navbar-fixed pt-4">
+        <a class="navbar-brand" href="#">
+          <img
+            src="component/logo-digifest.png"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <div class="nav-item d-flex position-relative gap-5">
           <a href="" class="raleway active">HOME</a>
           <a href="" class="raleway">ABOUT</a>
           <a href="" class="raleway">CATEGORY</a>
           <a href="" class="raleway">CONTACT US</a>
         </div>
       </div>
-    </div>
-    <div class="hero container-fluid p-0 w-100">
-      <div id="carouselExampleFade" class="container-fluid carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-inner p-0 w-100">
-          <div class="carousel-item d-flex align-items-center justify-content-center active"> <!-- Ganti class align-content-center menjadi align-items-center -->
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/14/11/49/ee/20180809-220112-largejpg.jpg"
-              class="d-block w-100 carousel-img" alt="..." />
-            <div class="hero-mid">
-              <h1 class="hero-title raleway">Pemenang</h1>
-              <p class="raleway">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                dolore quaerat possimus vitae
-              </p>
-            </div>
-            <div class="blue-bg"></div>
-          </div>
-          <div class="carousel-item d-flex align-items-center justify-content-center"> <!-- Ganti class align-content-center menjadi align-items-center -->
-            <img src="https://gudeg.net/cni-content/uploads/modules/direktori/logo/20161223094354.jpeg"
-              class="d-block w-100 carousel-img" alt="..." />
-            <div class="hero-mid">
-              <h1 class="hero-title raleway">Pemenang</h1>
-              <p class="raleway">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                dolore quaerat possimus vitae
-              </p>
-            </div>
-            <div class="blue-bg"></div>
-          </div>
-          <div class="carousel-item d-flex align-items-center justify-content-center"> <!-- Ganti class align-content-center menjadi align-items-center -->
-            <img src="https://cdn.idntimes.com/content-images/community/2018/12/5-e3bb41222376563e3281b2f753e07694.jpg"
-              class="d-block w-100 carousel-img" alt="..." />
-            <div class="hero-mid">
-              <h1 class="hero-title raleway">Pemenang</h1>
-              <p class="raleway">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                dolore quaerat possimus vitae
-              </p>
-            </div>
-            <div class="blue-bg"></div>
-          </div>
+      <button
+        class="btn btn-offcanvas"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+      >
+        <i class="fa-solid fa-bars" style="color: white; font-size: 35px;"></i>
+      </button>
+      <div
+        class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev"> <!-- Ubah data-bs-target menjadi "#carouselExampleFade" -->
-          <span class="carousel-control-prev-icon bg-black p-4 rounded-5" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next"> <!-- Ubah data-bs-target menjadi "#carouselExampleFade" -->
-          <span class="carousel-control-next-icon bg-black p-4 rounded-5" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      
-    </div>
-  </header>
-  <main style="height: 200vh;">
-    <div class="pendahuluan d-flex justify-content-center align-items-center">
-      <div class="sub-content bg-white position-relative gap-4 d-flex align-items-center flex-column">
-        <h1 class="" style="color: #1D1D1D;">TEMA KOMPETISI</h1>
-        <p class="poppins text-wrap">Tema lomba yang pilih DIGI Fest 2024 adalah</p>
-        <h2 class="poppins fw-semibold text-center">“Generasi Muda Berkarya di Era Digitalisasi 4.0”</h1>
-      </div>
-    </div>
-    <div class="konsep-lomba d-flex flex-column justify-content-center align-items-center">
-      <h1 class="raleway fw-bold">KONSEP LOMBA</h1>
-      <div class="cards flex-wrap mt-4 d-flex w-75 h-50 gap-5 justify-content-center align-items-center">
-        <div class="card">
-          <span>
-            <i class="fa-solid fa-comments m-auto"></i>
-          </span>
-          <div class="card-bio">
-            <p class="cookieHeading">Digital Innovation Solutions</p>
-            <p class="cookieDescription">Kategori SMA/SMK Sederajat</p>
-          </div>
-          <div class="buttonContainer">
-            <button onclick="modalBox(1)" class="declineButton">View</button>
-          </div>
-        </div>
-        <div class="card">
-          <span>
-            <i class="fa-solid fa-gears m-auto"></i>
-          </span>
-          <div class="card-bio">
-            <p class="cookieHeading mb-4">Content video Reels</p>
-            <p class="cookieDescription">Kategori SMA/SMK Sederajat</p>
-          </div>
-          <div class="buttonContainer">
-            <button onclick="modalBox(2)" class="declineButton">View</button>
-          </div>
-        </div>
-        <div class="card">
-          <span>
-            <i class="fa-solid fa-pen-ruler m-auto"></i>
-          </span>
-          <div class="card-bio">
-            <p class="cookieHeading">Kompetisi Poster Infografis</p>
-            <p class="cookieDescription">Kategori Mahasiswa</p>
-          </div>
-          <div class="buttonContainer">
-            <button onclick="modalBox(3)" class="declineButton">View</button>
+        <div class="offcanvas-body d-flex align-content-center">
+          <div class="right-nav d-flex flex-column">
+            <a href="#" class="raleway">HOME</a>
+            <a href="#" class="raleway">ABOUT</a>
+            <a href="#" class="raleway">CATEGORY</a>
+            <a href="#" class="raleway">CONTACT US</a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="modal">
-      <article class="modal-container">
-        <header class="modal-container-header">
-          <span class="modal-container-title">
-            Terms and Services
-          </span>
-          <button class="icon-button">
-            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 0h24v24H0z" fill="none"></path>
-              <path
-                d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
-                fill="currentColor"></path>
-            </svg>
+
+      <div class="hero container-fluid p-0 w-100">
+        <div
+          id="carouselExampleFade"
+          class="container-fluid carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner p-0 w-100">
+            <div
+              class="carousel-item d-flex align-items-center justify-content-center active"
+            >
+              <!-- Ganti class align-content-center menjadi align-items-center -->
+              <img
+                src="https://media-cdn.tripadvisor.com/media/photo-s/14/11/49/ee/20180809-220112-largejpg.jpg"
+                class="d-block w-100 carousel-img"
+                alt="..."
+              />
+              <div class="hero-mid">
+                <h1 class="hero-title raleway">
+                  Pengumuman Pemenang <br /><span>EVENT DIGIFEST 2024</span>
+                </h1>
+                <p class="raleway">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                  dolore quaerat possimus vitae
+                </p>
+              </div>
+              <div class="blue-bg"></div>
+            </div>
+            <div
+              class="carousel-item d-flex align-items-center justify-content-center"
+            >
+              <!-- Ganti class align-content-center menjadi align-items-center -->
+              <img
+                src="https://gudeg.net/cni-content/uploads/modules/direktori/logo/20161223094354.jpeg"
+                class="d-block w-100 carousel-img"
+                alt="..."
+              />
+              <div class="hero-mid">
+                <h1 class="hero-title raleway">
+                  Pengumuman Pemenang <br /><span>EVENT DIGIFEST 2024</span>
+                </h1>
+
+                <p class="raleway">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                  dolore quaerat possimus vitae
+                </p>
+              </div>
+              <div class="blue-bg"></div>
+            </div>
+            <div
+              class="carousel-item d-flex align-items-center justify-content-center"
+            >
+              <!-- Ganti class align-content-center menjadi align-items-center -->
+              <img
+                src="https://cdn.idntimes.com/content-images/community/2018/12/5-e3bb41222376563e3281b2f753e07694.jpg"
+                class="d-block w-100 carousel-img"
+                alt="..."
+              />
+              <div class="hero-mid">
+                <h1 class="hero-title raleway">
+                  Pengumuman Pemenang <br /><span>EVENT DIGIFEST 2024</span>
+                </h1>
+
+                <p class="raleway">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                  dolore quaerat possimus vitae
+                </p>
+              </div>
+              <div class="blue-bg"></div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev btn-sm"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-black p-3 rounded-5"
+              aria-hidden="true"
+            ></span>
           </button>
-        </header>
-        <section class="modal-container-body rtf">
-          <div class="modal-cnt"></div>
-        </section>
-        <footer class="modal-container-footer">
-        </footer>
-      </article>
-    </div>
-    <!-- <div class="timeline"> -->
+
+          <button
+            class="carousel-control-next btn-sm"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-black p-3 rounded-5"
+              aria-hidden="true"
+            ></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main style="height: 200vh;">
+      <div class="pendahuluan d-flex justify-content-center align-items-center">
+        <div
+          class="sub-content bg-white position-relative gap-4 d-flex align-items-center flex-column"
+        >
+          <h1 class="" style="color: #1d1d1d;">TEMA KOMPETISI</h1>
+          <p class="poppins text-wrap">
+            Tema lomba yang pilih DIGI Fest 2024 adalah
+          </p>
+          <h2 class="poppins fw-semibold text-center">
+            “Generasi Muda Berkarya di Era Digitalisasi 4.0”
+          </h2>
+        </div>
+      </div>
+      <div
+        class="konsep-lomba d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1 class="raleway fw-bold">KONSEP LOMBA</h1>
+        <div
+          class="cards flex-wrap mt-4 d-flex w-75 h-50 gap-5 justify-content-center align-items-center"
+        >
+          <div class="card">
+            <span>
+              <i class="fa-solid fa-comments m-auto"></i>
+            </span>
+            <div class="card-bio">
+              <p class="cookieHeading">Digital Innovation Solutions</p>
+              <p class="cookieDescription">Kategori SMA/SMK Sederajat</p>
+            </div>
+            <div class="buttonContainer">
+              <button onclick="modalBox(1)" class="declineButton">View</button>
+            </div>
+          </div>
+          <div class="card">
+            <span>
+              <i class="fa-solid fa-gears m-auto"></i>
+            </span>
+            <div class="card-bio">
+              <p class="cookieHeading mb-4">Content video Reels</p>
+              <p class="cookieDescription">Kategori SMA/SMK Sederajat</p>
+            </div>
+            <div class="buttonContainer">
+              <button onclick="modalBox(2)" class="declineButton">View</button>
+            </div>
+          </div>
+          <div class="card">
+            <span>
+              <i class="fa-solid fa-pen-ruler m-auto"></i>
+            </span>
+            <div class="card-bio">
+              <p class="cookieHeading">Kompetisi Poster Infografis</p>
+              <p class="cookieDescription">Kategori Mahasiswa</p>
+            </div>
+            <div class="buttonContainer">
+              <button onclick="modalBox(3)" class="declineButton">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal">
+        <article class="modal-container">
+          <header class="modal-container-header">
+            <span class="modal-container-title"> Terms and Services </span>
+            <button class="icon-button">
+              <svg
+                height="24"
+                width="24"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </button>
+          </header>
+          <section class="modal-container-body rtf">
+            <div class="modal-cnt"></div>
+          </section>
+          <footer class="modal-container-footer"></footer>
+        </article>
+      </div>
+      <!-- <div class="timeline"> -->
       <div class="timeline-wrap">
-      <h1>Timeline</h1>
-      <div class="container">
-        <div class="timeline">
+        <h1>Timeline</h1>
+        <div class="container">
+          <div class="timeline">
             <div class="timeline-row">
               <div class="timeline-time">
                 <h2>1</h2>
               </div>
               <div class="timeline-content">
                 <i class="icon-attachment"></i>
-                <h4>1 April 2024
-                </h4>
+                <h4>1 April 2024</h4>
                 <p>Pendaftaran dan pengumpulan karya</p>
                 <div class="thumbs">
-                  <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+                  <img
+                    class="img-fluid rounded"
+                    src="https://bootdey.com/img/Content/avatar/avatar3.png"
+                    alt="Maxwell Admin"
+                  />
                 </div>
               </div>
             </div>
-        
+
             <div class="timeline-row">
               <div class="timeline-time">
                 <h2>2</h2>
@@ -217,85 +330,149 @@
               <div class="timeline-content">
                 <i class="icon-code"></i>
                 <h4>12 Mei 2024</h4>
-                <p>
-                  Batas Akhir Pengumpulan Karya
-                </p>
+                <p>Batas Akhir Pengumpulan Karya</p>
                 <div class="thumbs">
                   <div class="thumbs">
-                  <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
-                </div>
+                    <img
+                      class="img-fluid rounded"
+                      src="https://bootdey.com/img/Content/avatar/avatar3.png"
+                      alt="Maxwell Admin"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-        
+
             <div class="timeline-row">
               <div class="timeline-time">
                 <h2>3</h2>
               </div>
               <div class="timeline-content">
                 <i class="icon-turned_in_not"></i>
-                <h4>15 Mei 2024
-                </h4>
-                <p>Pengumuman 10 inovasi terbaik
-                </p>
-                <h6>Khusus lomba inovasi digital
-                </h6>
-              </div>  
+                <h4>15 Mei 2024</h4>
+                <p>Pengumuman 10 inovasi terbaik</p>
+                <h6>Khusus lomba inovasi digital</h6>
+              </div>
             </div>
-        
+
             <div class="timeline-row">
               <div class="timeline-time">
                 <h1>4</h1>
               </div>
               <div class="timeline-content">
                 <i class="icon-directions"></i>
-                <h4>20 Mei 2024
-                </h4>
-                <p>Presentasi Hasil Karya
-                  <strong> Khusus kompetisi invoasi</strong> dan Penjurian lomba video dan poster
-                  </p>
+                <h4>20 Mei 2024</h4>
+                <p>
+                  Presentasi Hasil Karya
+                  <strong> Khusus kompetisi invoasi</strong> dan Penjurian lomba
+                  video dan poster
+                </p>
               </div>
             </div>
-        
+
             <div class="timeline-row">
               <div class="timeline-time">
                 <h1>5</h1>
               </div>
               <div class="timeline-content">
                 <i class="icon-change_history"></i>
-                <h4>22 Mei 2024
-                </h4>
-                <p class="no-margin">Pengumuman Pemenang
-                </p>
+                <h4>22 Mei 2024</h4>
+                <p class="no-margin">Pengumuman Pemenang</p>
                 <div class="thumbs">
-                  <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="Maxwell Admin">
+                  <img
+                    class="img-fluid rounded"
+                    src="https://bootdey.com/img/Content/avatar/avatar5.png"
+                    alt="Maxwell Admin"
+                  />
                 </div>
               </div>
             </div>
-        
+
             <div class="timeline-row">
               <div class="timeline-time">
                 <h1>6</h1>
               </div>
               <div class="timeline-content">
                 <i class="icon-code"></i>
-                <h4>27 Mei 2024
-                </h4>
-                <p>
-                  Pemberian Hadiah
-                </p>
+                <h4>27 Mei 2024</h4>
+                <p>Pemberian Hadiah</p>
                 <div class="thumbs">
-                  <img class="img-fluid rounded" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Maxwell Admin">
+                  <img
+                    class="img-fluid rounded"
+                    src="https://bootdey.com/img/Content/avatar/avatar3.png"
+                    alt="Maxwell Admin"
+                  />
                 </div>
               </div>
             </div>
-        
           </div>
+        </div>
       </div>
-    </div>
-  </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="script.js"></script>
-</body>
-
+      <div class="kategori d-flex flex-column align-content-center">
+        <div class="nav-tab position-relative mt-5 m-auto d-flex gap-5">
+          <button
+            class="tab-misi nav-tab-btn d-flex flex-column"
+            onclick="navTab(1)"
+          >
+            <i class="fa-solid m-auto fa-rocket"></i>
+            <p>Misi</p>
+            <span class="border-nav"></span>
+          </button>
+          <button
+            class="nav-tab-btn tab-inovasi d-flex flex-column"
+            onclick="navTab(2)"
+          >
+            <i class="fa-solid m-auto fa-layer-group"></i>
+            <p>Kategori Inovasi</p>
+            <span class="border-nav"></span>
+          </button>
+          <button
+            class="nav-tab-btn tab-jalur d-flex flex-column"
+            onclick="navTab(3)"
+          >
+            <i class="fa-solid m-auto fa-signs-post"></i>
+            <p>Jalur Peserta</p>
+            <span class="border-nav"></span>
+          </button>
+          <button
+            class="nav-tab-btn tab-hadiah d-flex flex-column"
+            onclick="navTab(4)"
+          >
+            <i class="fa-solid m-auto fa-gift"></i>
+            <p>Haidah</p>
+            <span class="border-nav"></span>
+          </button>
+        </div>
+        <div class="kategori-tab">
+          <div
+            class="mission-tab content1 d-flex w-100 justify-content-center align-items-center position-relative gap-5"
+          >
+            <div class="card2">Mission</div>
+            <div class="card2">Mission</div>
+          </div>
+          <div
+            class="inovasi-tab content1 d-flex w-100 h-100 justify-content-center align-items-center position-relative gap-5"
+          >
+            <div class="card2">Inovasi</div>
+            <div class="card2">Inovasi</div>
+            <div class="card2">Inovasi</div>
+          </div>
+          <div
+            class="jalur-tab content1 d-flex w-100 h-100 justify-content-center align-items-center position-relative gap-5"
+          >
+            <div class="card2">Jalur Peserta</div>
+          </div>
+          <div
+            class="gift-tab content1 d-flex w-100 h-100 justify-content-center align-items-center position-relative gap-5"
+          >
+            <div class="card2">gift</div>
+            <div class="card2">gift</div>
+            <div class="card2">gift</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
