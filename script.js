@@ -3,7 +3,7 @@ document.getElementById("navbar").style.top = "-100px";
 
 window.addEventListener("scroll", function () {
   let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-  if (currentScroll > 100) {
+  if (currentScroll > 200) {
     // Scroll ke bawah
     document.getElementById("navbar").style.top = "0";
   } else {

@@ -86,15 +86,15 @@ header {
   align-items: center;
   transition-duration: 0.3s;
   justify-content: space-between;
-  padding: 0 60px;
+  padding: 0 px;
 }
 
 #navbar img {
-  width: 200px;
+  width: 60px;
   height: auto;
-  top: -4px;
   object-fit: cover;
   position: relative;
+  padding-left: 20px;
 }
 
 .navbar-fixed {
@@ -230,7 +230,6 @@ p {
   padding: 0;
   display: flex;
   position: relative;
-  z-index: 999999;
 }
 
 .sub-content {
@@ -240,7 +239,7 @@ p {
 
 .konsep-lomba {
   height: auto;
-  padding: 0px 0;
+  padding: 50px 0;
   min-height: 700px;
   box-sizing: border-box;
   background-image: url(/component/wave.svg);
@@ -250,7 +249,7 @@ p {
 
 .konsep-lomba h1 {
   position: relative;
-  top: -80px;
+  margin-bottom: 100px;
 }
 
 .card {
@@ -314,12 +313,20 @@ p {
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
-.card span {
+.card span,
+.timeline-content span {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   border: 2px solid #155bd5;
+  align-items: center;
+  justify-content: center;
   display: flex;
+}
+
+.timeline-content span i {
+  position: relative;
+  margin: auto;
 }
 
 /* .acceptButton:hover {
@@ -618,8 +625,6 @@ p {
   border-radius: 100%;
   border: 1px solid white;
   border-color: white;
-  padding: 10px;
-  display: inline-block;
   border-radius: 50%; /* Untuk membuat border berbentuk lingkaran */
 }
 
@@ -682,6 +687,7 @@ p {
 .kategori {
   width: 100%;
   height: 80vh;
+  min-height: 800px;
   background-color: #4d9bc8;
 }
 
@@ -690,14 +696,17 @@ p {
   margin: auto;
 }
 
+.nav-tab {
+  gap: 50px;
+}
+
 .nav-tab-btn {
   /* transition-duration: 2s; */
   width: auto;
   position: relative;
-  gap: 10px;
+  gap: 5px;
   border: 0px solid black;
   background: #4d9bc8;
-  padding-top: 20px;
   transition-duration: 0.3s;
 }
 
@@ -908,7 +917,8 @@ p {
   }
 
   .konsep-lomba h1 {
-    font-size: 45px;
+    font-size: 40px;
+    margin-bottom: 20px;
   }
 
   .cards {
@@ -927,6 +937,11 @@ p {
   .timeline {
     padding: 15px;
   }
+
+  .timeline-wrap h1 {
+    margin-bottom: 0;
+  }
+
   .timeline:after {
     border: 0;
   }
@@ -971,11 +986,25 @@ p {
   .kategori {
     overflow: hidden;
     height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 800px;
   }
 
-  .kategori button,
-  .kategori p {
-    padding: 0;
+  .nav-tab {
+    align-items: end;
+    width: 100%;
+    gap: 0;
+    height: 100px;
+    position: relative;
+  }
+
+  .nav-tab-btn,
+  .nav-tab-btn p {
+    height: 100%;
+    margin: 0;
+    overflow: visible;
+    justify-content: space-between;
   }
 
   .kategori button i,
@@ -1058,5 +1087,21 @@ p {
 @media (max-width: 600px) {
   .modal-container {
     width: 90%;
+  }
+
+  .hero-mid {
+    top: 200px;
+    position: absolute;
+  }
+
+  .sub-content {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .sub-content p,
+  .sub-content h2 {
+    text-align: center;
   }
 }
