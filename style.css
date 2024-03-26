@@ -986,13 +986,14 @@ p {
   .kategori {
     overflow: hidden;
     height: auto;
-    padding: 20px;
+    padding: 0;
     box-sizing: border-box;
     min-height: 800px;
   }
 
   .nav-tab {
     align-items: end;
+    padding: 10px;
     width: 100%;
     gap: 0;
     height: 100px;
