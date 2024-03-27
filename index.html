@@ -41,31 +41,37 @@
   <body>
     <header>
       <nav id="navbar">
-        <img
-          src="component/logo.png"
-          alt="Logo"
-          width="30"
-          height="24"
-          class="d-inline-block align-text-top"
-        />
-        <div class="nav-item d-flex position-relative gap-5">
-          <a href="">HOME</a>
-          <a href="" class="raleway">ABOUT</a>
-          <a href="" class="raleway">CATEGORY</a>
-          <a href="" class="raleway">CONTACT US</a>
-        </div>
-        <button
-          class="btn btn-offcanvas"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasRight"
-          aria-controls="offcanvasRight"
+        <div
+          style="justify-content: space-between;"
+          class="nav-child d-flex align-items-center w-100"
         >
-          <i
-            class="fa-solid fa-bars"
-            style="color: black; font-size: 35px;"
-          ></i>
-        </button>
+          <img
+            src="component/logo.png"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block"
+            style="left: -20px;"
+          />
+          <div class="nav-item d-flex position-relative gap-5">
+            <a href="">HOME</a>
+            <a href="" class="raleway">ABOUT</a>
+            <a href="" class="raleway">CATEGORY</a>
+            <a href="" class="raleway">CONTACT US</a>
+          </div>
+          <button
+            class="btn btn-offcanvas"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <i
+              class="fa-solid fa-bars"
+              style="color: black; font-size: 35px;"
+            ></i>
+          </button>
+        </div>
       </nav>
       <div class="navbar-fixed pt-4">
         <a class="navbar-brand" href="#">
@@ -122,47 +128,78 @@
 
       <div class="hero container-fluid p-0 w-100">
         <div
-          id="carouselExampleFade"
-          class="container-fluid carousel slide carousel-fade"
-          data-bs-ride="carousel"
+          class="carousel-item d-flex align-items-center justify-content-center active"
         >
-          <div class="carousel-inner p-0 w-100">
-            <div
-              class="carousel-item d-flex align-items-center justify-content-center active"
-            >
-              <!-- Ganti class align-content-center menjadi align-items-center -->
+          <!-- Ganti class align-content-center menjadi align-items-center -->
+          <!-- <img
+            src="https://media-cdn.tripadvisor.com/media/photo-s/14/11/49/ee/20180809-220112-largejpg.jpg"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          /> -->
+          <div class="hero-mid d-flex">
+            <div class="hero-text f-flex flex-column">
+              <h1 class="hero-title">
+                Pengumuman Pemenang <br /><span>EVENT DIGIFEST 2024</span>
+              </h1>
+              <p class="raleway">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                dolore quaerat possimus vitae
+              </p>
+              <button class="btn-reg">
+                <span>REGISTRASI</span>
+              </button>
+            </div>
+            <div class="container-img">
               <img
-                src="https://media-cdn.tripadvisor.com/media/photo-s/14/11/49/ee/20180809-220112-largejpg.jpg"
-                class="d-block w-100 carousel-img"
-                alt="..."
+                class="image"
+                src="/component/space-person-involved-in-processing-and-confirming-transactions-with-cryptocurrency.png"
+                alt=""
               />
-              <div class="hero-mid">
-                <h1 class="hero-title raleway">
-                  Pengumuman Pemenang <br /><span>EVENT DIGIFEST 2024</span>
-                </h1>
-                <p class="raleway">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                  dolore quaerat possimus vitae
-                </p>
-              </div>
-              <div class="blue-bg"></div>
             </div>
           </div>
+          <div class="blue-bg"></div>
         </div>
       </div>
     </header>
     <main>
-      <div class="pendahuluan">
+      <div class="pendahuluan d-flex gap-3 row">
+        <div class="pendahuluan-img col-xl-6">
+          <img
+            src="component/kit-risk-management-forecasting-and-assessment.gif"
+            alt=""
+            srcset=""
+          />
+        </div>
         <div
-          class="sub-content position-relative gap-3 d-flex align-items-center flex-column"
+          class="sub-content col-xl-6 col-lg-12 position-relative d-flex align-items-start flex-column"
         >
-          <h1 class="" style="color: #1d1d1d;">TEMA KOMPETISI</h1>
-          <p class="poppins text-wrap">
+          <h1 class="" style="color: #1d1d1d;">
             Tema lomba yang pilih DIGI Fest 2024 adalah
-          </p>
-          <h2 class="poppins fw-semibold text-center">
+          </h1>
+          <h2 class="poppins fw-semibold">
             “Generasi Muda Berkarya di Era Digitalisasi 4.0”
           </h2>
+          <br />
+          <p class="poppins text-wrap">
+            Latar Belakang
+          </p>
+          <p class="poppins text-wrap">
+            Teknologi digital telah menjadi bagian penting dalam kehidupan
+            masyarakat modern. Perkembangan teknologi digital yang semakin pesat
+            telah membawa banyak perubahan, baik dalam aspek sosial, ekonomi,
+            maupun budaya. Perubahan yang dibawa oleh teknologi digital menuntut
+            adanya inovasi-inovasi baru. Inovasi-inovasi tersebut diperlukan
+            untuk menjawab tantangan dan kebutuhan yang ada. Generasi muda
+            merupakan generasi yang tumbuh dan berkembang di era digital.
+            Generasi muda memiliki potensi yang besar untuk berinovasi dalam
+            bidang teknologi digital. <br /><br />Oleh karena itu Himpunan
+            Mahasiswa Teknologi Informasi Universitas Muhammadiyah Purworejo
+            mengadakan Lomba DIGI Fest 2024 yang dapat menjadi wadah bagi para
+            inovator digital untuk menampilkan karya-karya mereka dan berbagi
+            ide-ide baru. Lomba ini juga dapat menjadi sarana untuk mendorong
+            kreativitas generasi muda dan mempersiapkan masa depan yang lebih
+            baik.
+          </p>
         </div>
       </div>
       <div
