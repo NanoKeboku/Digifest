@@ -3,6 +3,7 @@
   margin: 0;
   text-decoration-style: none;
   text-decoration-line: none;
+  box-sizing: border-box;
 }
 
 html {
@@ -645,11 +646,13 @@ p {
 /* ============ TIME LINE ================ */
 
 .timeline-wrap {
-  width: 100%;
+  /* width: 50%; */
+  max-width: 720px;
   height: auto;
   margin-top: 100px;
   background: white;
   display: flex;
+  margin: auto;
   flex-direction: column;
   padding: 100px 0;
 }
@@ -663,7 +666,7 @@ p {
 
 .main-timeline {
   position: relative;
-  width: 53.5%;
+  width: 100%;
   margin: auto;
   /* background-color: #007bff; */
 }
@@ -1525,7 +1528,7 @@ p {
   }
 
   .pendahuluan-img img {
-    width: 400px;
+    width: 300px;
   }
 
   .konsep-lomba {
@@ -1536,35 +1539,9 @@ p {
   .konsep-lomba h1 {
     font-size: 37px;
   }
-}
 
-@media (max-width: 600px) {
-  .hero-mid {
-    margin-top: 100px;
-  }
-
-  .hero-text {
-    width: 90%;
-    top: -80px;
-    position: relative;
-  }
-  .modal-container {
-    width: 90%;
-  }
-
-  .pendahuluan {
-    padding: 0px;
-    margin-bottom: 100px;
-  }
-
-  .sub-content {
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-  }
-
-  .sub-content p.t-left {
-    text-align: left;
+  .card-timeline {
+    width: 300px;
   }
 
   .main-timeline {
@@ -1611,5 +1588,35 @@ p {
   /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-mid {
+    margin-top: 100px;
+  }
+
+  .hero-text {
+    width: 90%;
+    top: -80px;
+    position: relative;
+  }
+  .modal-container {
+    width: 90%;
+  }
+
+  .pendahuluan {
+    padding: 0px;
+    margin-bottom: 100px;
+  }
+
+  .sub-content {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .sub-content p.t-left {
+    text-align: left;
   }
 }
