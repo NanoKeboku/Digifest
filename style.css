@@ -1172,10 +1172,10 @@ p {
   padding: 0;
   justify-content: center;
   align-items: center;
-  background-image: url(component/layered-waves-haikei.svg);
+  background-image: url(component/wave2.svg);
   background-repeat: no-repeat;
-  background-size: 280vh;
-  background-position: 0 -700px;
+  background-size: 90em;
+  background-position: 0 -200px;
   margin: 0;
 }
 
@@ -1578,7 +1578,8 @@ p {
     width: 100%;
     margin: 0;
     height: auto;
-    background-position: 0 -200px;
+    background-size: 140rem;
+    background-position: 0 0px;
   }
 
   .left-news {
