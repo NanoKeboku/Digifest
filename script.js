@@ -1,15 +1,17 @@
 let lastScrollTop = 0;
 document.getElementById("navbar").style.top = "-100px";
 
-document.getElementById("form-btn").addEventListener("click", function () {
-  var win = window.open("index2.html", "_blank");
-  if (win) {
-    //Browser has allowed it to be opened
-    win.focus();
-  } else {
-    //Browser has blocked it
-    alert("Please allow popups for this website");
-  }
+document.querySelectorAll("#form-btn").forEach((x) => {
+  x.addEventListener("click", function () {
+    var win = window.open("index2.html", "_blank");
+    if (win) {
+      //Browser has allowed it to be opened
+      win.focus();
+    } else {
+      //Browser has blocked it
+      alert("Please allow popups for this website");
+    }
+  });
 });
 
 window.addEventListener("scroll", function () {

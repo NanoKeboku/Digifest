@@ -54,6 +54,7 @@
             <a href="#beranda" class="raleway">BERANDA</a>
             <a href="#tentang" class="raleway">TENTANG</a>
             <a href="#kategori" class="raleway">KATEGORI</a>
+            <a href="#timeline" class="raleway">TIMELINE</a>
             <a href="#kontak" class="raleway">KONTAK</a>
           </div>
           <button
@@ -85,6 +86,7 @@
           <a href="#beranda" class="raleway" style="color: #fff;">BERANDA</a>
           <a href="#tentang" class="raleway">TENTANG</a>
           <a href="#kategori" class="raleway">KATEGORI</a>
+          <a href="#timeline" class="raleway">TIMELINE</a>
           <a href="#kontak" class="raleway">KONTAK</a>
         </div>
       </div>
@@ -119,6 +121,7 @@
             <a href="#" class="raleway">HOME</a>
             <a href="#" class="raleway">ABOUT</a>
             <a href="#" class="raleway">CATEGORY</a>
+            <a href="#timeline" class="raleway">TIMELINE</a>
             <a href="#" class="raleway">CONTACT US</a>
           </div>
         </div>
@@ -468,7 +471,7 @@
         </article>
       </div>
 
-      <div class="timeline-wrap">
+      <div class="timeline-wrap" id="timeline">
         <h1 class="raleway fw-bold" data-aos="fade-up">TIMELINE</h1>
         <div class="container">
           <section>
@@ -596,14 +599,16 @@
         </div>
       </div>
       <div
-        data-aos="fade-up"
+
         class="news row d-flex justify-content-center align-items-center"
       >
-        <div class="left-news col-xl-6 d-flex flex-column m-auto">
+        <div data-aos="fade-up" class="left-news col-xl-6 d-flex flex-column m-auto">
+          <img src="component/smile.png" alt="" srcset="">
+         
           <h1 class="text-center" >
             Daftarkan diri anda sekarang <br />dengan klik tombol dibawah ini 
           </h1>
-          <button
+          <button  id="form-btn"
             class="animated-button"
             style="top: -50px; position: relative;"
           >
@@ -629,11 +634,12 @@
             </svg>
           </button>
         </div>
-        <div class="right-news w-50 m-auto col-xl-6 d-flex flex-column justify-content-center align-items-center">
+        <div data-aos="fade-up" class="right-news w-50 m-auto col-xl-6 d-flex flex-column justify-content-center align-items-center">
+          <img src="component/casual-life-3d-girl-with-tablet-and-working-process-on-desktop.png" alt="" srcset="">
           <h1 class="text-center">
             Pengumpulan Karya
           </h1>
-          <button
+          <button 
             class="animated-button"
             style="top: -50px; position: relative;"
           >
@@ -646,7 +652,7 @@
                 d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
               ></path>
             </svg>
-            <span class="text">Daftar Sekarang</span>
+            <span class="text">Kirim</span>
             <span class="circle"></span>
             <svg
               viewBox="0 0 24 24"
