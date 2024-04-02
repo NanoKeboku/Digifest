@@ -1168,15 +1168,22 @@ p {
 
 .news {
   width: 100%;
+  max-width: 100%;
   height: auto;
   padding: 0;
   justify-content: center;
   align-items: center;
+  margin: 0;
+}
+
+.news-bg {
   background-image: url(component/wave2.svg);
   background-repeat: no-repeat;
   background-size: 90em;
   background-position: 0 -200px;
-  margin: 0;
+  width: 100%;
+  max-width: 1450px;
+  margin: auto;
 }
 
 .news h1 {
