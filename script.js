@@ -41,7 +41,7 @@ function modalBox(param) {
 }
 
 $(document).ready(function () {
-  document.querySelectorAll(".border-nav")[0].style.background = "black";
+  document.querySelectorAll(".border-nav")[0].style.background = "white";
   $(".mission-tab .card2").css("display", "flex");
   $(".inovasi-tab .card2").css("display", "none");
   $(".jalur-tab .card2").css("display", "none");
@@ -51,7 +51,7 @@ $(document).ready(function () {
     $(".inovasi-tab .card2").css("display", "none");
     $(".jalur-tab .card2").css("display", "none");
     $(".gift-tab .card2").css("display", "none");
-    document.querySelectorAll(".border-nav")[0].style.background = "black";
+    document.querySelectorAll(".border-nav")[0].style.background = "white";
   });
   $(".tab-inovasi").click(function () {
     $(".mission-tab .card2").css("display", "none");

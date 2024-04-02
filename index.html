@@ -65,7 +65,7 @@
           >
             <i
               class="fa-solid fa-bars"
-              style="color: black; font-size: 35px;"
+              style="color: white; font-size: 35px;"
             ></i>
           </button>
         </div>
@@ -135,25 +135,24 @@
             alt="..."
           /> -->
           <div class="hero-mid d-flex">
-            <div data-aos="fade-up">
-              <div class="hero-text f-flex flex-column justify-content-center">
-                <h1 class="hero-title">
-                  Pengumuman Pemenang <br /><span>EVENT DIGIFEST 2024</span>
-                </h1>
-                <p class="raleway">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
-                  dolore quaerat possimus vitae
-                </p>
+            <div
+              data-aos="fade-up"
+              class="hero-text f-flex flex-column justify-content-center"
+            >
+              <h1 class="hero-title">
+                Pengumuman Pemenang <br /><span>EVENT DIGIFEST 2024</span>
+              </h1>
+              <p class="raleway">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste
+                dolore quaerat possimus vitae
+              </p>
 
-                <button class="btn-reg" id="form-btn">
-                  <span>REGISTRASI</span>
-                </button>
-              </div>
+              <button class="btn-reg" id="form-btn">
+                <span>REGISTRASI</span>
+              </button>
             </div>
-            <div data-aos="fade-up">
-              <div class="container-img">
-                <img src="component/piala.png" alt="" srcset="" />
-              </div>
+            <div data-aos="fade-up" class="container-img">
+              <img src="component/piala.png" alt="" srcset="" />
             </div>
           </div>
 
@@ -474,9 +473,9 @@
         <div class="container">
           <section>
             <div class="container py-5">
-              <div class="main-timeline">
+              <div class="main-timeline" data-aos="fade-up">
                 <div class="timeline left">
-                  <div class="card-timeline" data-aos="fade-right">
+                  <div class="card-timeline"">
                     <div class="card-body p-4">
                       <h3>1 April 2024</h3>
                       <p class="mb-0">
@@ -486,7 +485,7 @@
                   </div>
                 </div>
                 <div class="timeline right">
-                  <div class="card-timeline" data-aos="fade-left">
+                  <div class="card-timeline">
                     <div class="card-body p-4">
                       <h3>12 Mei 2024</h3>
                       <p class="mb-0">
@@ -496,7 +495,7 @@
                   </div>
                 </div>
                 <div class="timeline left">
-                  <div class="card-timeline" data-aos="fade-right">
+                  <div class="card-timeline"">
                     <div class="card-body p-4">
                       <h3>15 Mei 2024</h3>
                       <p class="mb-0">
@@ -507,7 +506,7 @@
                   </div>
                 </div>
                 <div class="timeline right">
-                  <div class="card-timeline" data-aos="fade-left">
+                  <div class="card-timeline">
                     <div class="card-body p-4">
                       <h3>20 Mei 2024</h3>
                       <p class="mb-0">
@@ -518,7 +517,7 @@
                   </div>
                 </div>
                 <div class="timeline left">
-                  <div class="card-timeline" data-aos="fade-right">
+                  <div class="card-timeline"">
                     <div class="card-body p-4">
                       <h3>22 Mei 2024</h3>
                       <p class="mb-0">
@@ -528,7 +527,7 @@
                   </div>
                 </div>
                 <div class="timeline right">
-                  <div class="card-timeline" data-aos="fade-left">
+                  <div class="card-timeline">
                     <div class="card-body p-4">
                       <h3>27 Mei 2024</h3>
                       <p class="mb-0">
@@ -553,14 +552,6 @@
           >
             <i class="fa-solid m-auto fa-rocket"></i>
             <p>Misi</p>
-            <span class="border-nav"></span>
-          </button>
-          <button
-            class="nav-tab-btn tab-inovasi d-flex flex-column"
-            onclick="navTab(2)"
-          >
-            <i class="fa-solid m-auto fa-layer-group"></i>
-            <p>Kategori Inovasi</p>
             <span class="border-nav"></span>
           </button>
           <button
@@ -590,14 +581,6 @@
           </div>
           <div
             data-aos="fade-up"
-            class="inovasi-tab content1 d-flex w-100 h-100 justify-content-center align-items-center position-relative gap-5"
-          >
-            <div class="card2">Inovasi</div>
-            <div class="card2">Inovasi</div>
-            <div class="card2">Inovasi</div>
-          </div>
-          <div
-            data-aos="fade-up"
             class="jalur-tab content1 d-flex w-100 h-100 justify-content-center align-items-center position-relative gap-5"
           >
             <div class="card2">Jalur Peserta</div>
@@ -614,33 +597,68 @@
       </div>
       <div
         data-aos="fade-up"
-        class="news d-flex justify-content-center align-content-center flex-column"
+        class="news row d-flex justify-content-center align-items-center"
       >
-        <h1 class="poppins m-auto text-center">
-          Daftarkan diri anda sekarang <br />dengan klik tombol dibawah ini 🤩
-        </h1>
-        <button class="animated-button" style="top: -50px; position: relative;">
-          <svg
-            viewBox="0 0 24 24"
-            class="arr-2"
-            xmlns="http://www.w3.org/2000/svg"
+        <div class="left-news col-xl-6 d-flex flex-column m-auto">
+          <h1 class="text-center" >
+            Daftarkan diri anda sekarang <br />dengan klik tombol dibawah ini 
+          </h1>
+          <button
+            class="animated-button"
+            style="top: -50px; position: relative;"
           >
-            <path
-              d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-            ></path>
-          </svg>
-          <span class="text">Daftar Sekarang</span>
-          <span class="circle"></span>
-          <svg
-            viewBox="0 0 24 24"
-            class="arr-1"
-            xmlns="http://www.w3.org/2000/svg"
+            <svg
+              viewBox="0 0 24 24"
+              class="arr-2"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
+            <span class="text">Daftar Sekarang</span>
+            <span class="circle"></span>
+            <svg
+              viewBox="0 0 24 24"
+              class="arr-1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div class="right-news w-50 m-auto col-xl-6 d-flex flex-column justify-content-center align-items-center">
+          <h1 class="text-center">
+            Pengumpulan Karya
+          </h1>
+          <button
+            class="animated-button"
+            style="top: -50px; position: relative;"
           >
-            <path
-              d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-            ></path>
-          </svg>
-        </button>
+            <svg
+              viewBox="0 0 24 24"
+              class="arr-2"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
+            <span class="text">Daftar Sekarang</span>
+            <span class="circle"></span>
+            <svg
+              viewBox="0 0 24 24"
+              class="arr-1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
+          </button>
+        </div>
       </div>
     </main>
     <div class="pg-footer" id="kontak">
