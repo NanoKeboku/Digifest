@@ -1585,6 +1585,9 @@ p {
     width: 100%;
     margin: 0;
     height: auto;
+  }
+
+  .news-bg {
     background-size: 140rem;
     background-position: 0 0px;
   }
