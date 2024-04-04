@@ -107,7 +107,7 @@ header {
 }
 
 #navbar img {
-  width: 40px;
+  width: 130px;
   height: auto;
   left: 25px;
   object-fit: cover;
@@ -825,18 +825,41 @@ p {
   width: 190px;
   height: 254px;
   background: rgba(217, 217, 217, 0.58);
-  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  box-shadow: 7px 7px 0px 0px #0b2447;
   backdrop-filter: blur(6px);
   border-radius: 17px;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  user-select: none;
-  font-weight: bolder;
+  align-items: left;
+  justify-content: start;
+  flex-direction: column;
   color: black;
+}
+
+.card2 p {
+  font-size: 14px;
+  color: black;
+}
+
+.jalur-tab .card2 {
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+  font-weight: bolder;
+}
+
+.gift-tab .card2 img {
+  width: 130px;
+}
+
+.jalur-tab .card2 img {
+  margin-top: 20px;
+  width: 150px;
+}
+.card2 img.mhs {
+  width: 170px;
 }
 
 .card2:hover {
@@ -1429,6 +1452,16 @@ p {
     height: 100%;
   }
 
+  .container-img {
+    position: relative;
+    border-radius: 100%;
+    top: -100px;
+  }
+
+  .btn-reg {
+    bottom: -20px;
+  }
+
   .carousel-inner {
     /* background-color: blue; */
     height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
@@ -1540,6 +1573,15 @@ p {
     padding: 0;
     box-sizing: border-box;
     min-height: 800px;
+  }
+
+  .card2 {
+    margin: 0;
+    width: 300px;
+  }
+
+  .card2 p {
+    font-size: 18px;
   }
 
   .nav-tab {
