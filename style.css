@@ -1202,10 +1202,10 @@ p {
 .news-bg {
   background-image: url(component/wave2.svg);
   background-repeat: no-repeat;
-  background-size: 90em;
+  background-size: 120rem;
   background-position: 0 -440px;
   width: 100%;
-  max-width: 1450px;
+  max-width: 1650px;
   margin: auto;
 }
 
@@ -1248,6 +1248,14 @@ p {
   width: 300px;
   position: relative;
   bottom: -60px;
+}
+
+.logo-footer {
+  position: relative;
+  display: flex;
+  width: auto;
+  align-items: center;
+  gap: 10px;
 }
 
 /* Media Query For different screens */
@@ -1631,7 +1639,7 @@ p {
 
   .news-bg {
     background-size: 140rem;
-    background-position: 0 -370px;
+    background-position: 0 0px;
   }
 
   .left-news {
