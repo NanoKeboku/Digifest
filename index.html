@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Digifest</title>
+  <title>Digifest 2024</title>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
@@ -96,7 +96,7 @@
 
             </p>
 
-            <button class="btn-reg" id="form-btn">
+            <button class="btn-reg" data-bs-toggle="modal" data-bs-target="#modal-main">
               <span>IKUTI SEKARANG</span>
             </button>
           </div>
@@ -250,7 +250,7 @@
               peserta untuk mengembangkan solusi digital yang inovatif untuk
               memecahkan masalah atau tantangan yang ada di masyarakat. Solusi
               digital yang dikembangkan dapat berupa aplikasi, sistem
-              informasi atau web application.
+              informasi, web application atau Inovasi Internet Of Things.
             </p>
             <p>Tujuan dari kategori ini adalah untuk:</p>
             <ul>
@@ -268,8 +268,7 @@
               Peserta kategori ini dapat berasal dari pelajar sekolah SMA/SMK
               sederajat yang berdomisili di jawa tengah. Peserta dapat
               membentuk tim atau individu. <br />Tema lomba innovation digital
-              solution DIGIFEST 2024 yaitu “Digitalisasi di lingkungan sekolah
-              dan Masyarakat“
+              solution DIGIFEST 2024 yaitu “Peran Digitalisasi di Masyarakat“
             </p>
           </div>
         </section>
@@ -328,7 +327,7 @@
       <article class="modal-container">
         <header class="modal-container-header">
           <span class="modal-container-title">
-            <h2>Content video Reels</h2>
+            <h2>Kompetisi Poster Infografis</h2>
           </span>
           <button class="icon-button">
             <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -361,9 +360,7 @@
               </li>
             </ul>
             <p>
-              Peserta kategori ini dapat berasal dari pelajar sekolah SMA/SMK
-              sederajat yang berdomisili di jawa tengah. Peserta dapat
-              membentuk tim atau individu.
+              Peserta kategori ini adalah Mahasiswa Universitas Muhammadiyah Purworjeo.
             </p>
             <p>
               Tema lomba poter infografis DIGIFEST 2024 yaitu “Sadar Phising,
@@ -373,6 +370,28 @@
         </section>
         <footer class="modal-container-footer"></footer>
       </article>
+    </div>
+
+    <div class="container " style="margin: 100px auto;">
+      <div class="row">
+        <h1 class="text-center my-3">Guide Book</h1>
+        <div class="col-md-6 mb-5 m-auto " >
+          <img src="component/poster.png" class="img-fluid " alt="">
+        </div>
+        <div class="col-md-6 m-auto bg-ungu rounded p-5" >
+          <div data-aos="fade-left">
+            <p class="text-light">
+              Masih ragu tentang kompetisi DIGIFEST 2024 ?🤔
+            </p>
+            <h3 class="poppins text-light fw-semibold">
+              Kunjungi dan lihat ketentuan mengenai DIGIFEST melalui Guide Book dibawah ini😎
+            </h3>
+            <br />
+            <a href="https://drive.google.com/drive/folders/1Wdp_Ji97cgQF5BqGl90vk7Zmb1TGlzdM?usp=sharing" class="btn btn-light text-primary rounded-pill px-4 py-3">Lihat Guide Book</a>
+          </div>
+        </div>
+        
+      </div>
     </div>
 
     <div class="timeline-wrap" id="timeline">
@@ -462,7 +481,7 @@
         </button>
         <button class="nav-tab-btn tab-hadiah d-flex flex-column" onclick="navTab(4)">
           <i class="fa-solid m-auto fa-gift"></i>
-          <p>Haidah</p>
+          <p>Hadiah</p>
           <span class="border-nav"></span>
         </button>
       </div>
@@ -498,7 +517,7 @@
           </div>
           <div class="card2">
             <img class="mhs" src="component/collage.png" alt="Mahasiswa" srcset="">
-            <p class="mt-4">Mahasiswwa</p>
+            <p class="mt-4">Mahasiswa</p>
           </div>
         </div>
         <div data-aos="fade-up"
@@ -523,14 +542,14 @@
         </div>
       </div>
     </div>
-    <div  class="news  d-flex justify-content-center align-items-center">
+    <div  class="news d-flex justify-content-center align-items-center">
       <div class="news-bg row d-flex justify-content-center align-items-center">
         <div data-aos="fade-up" class="left-news col-xl-6 d-flex flex-column m-auto">
           <img src="component/smile.png" alt="" srcset="">
           <h1 class="text-center">
             Daftarkan diri anda sekarang <br />dengan klik tombol dibawah ini
           </h1>
-          <button id="form-btn" class="animated-button" style="top: -50px; position: relative;">
+          <button  class="animated-button" style="top: -50px; position: relative;" data-bs-toggle="modal" data-bs-target="#modal-main">
             <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
@@ -551,7 +570,7 @@
           <h1 class="text-center">
             Pengumpulan Karya
           </h1>
-          <button class="animated-button" style="top: -50px; position: relative;">
+          <button class="animated-button" style="top: -50px; position: relative;" data-bs-toggle="modal" data-bs-target="#modal-second">
             <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
@@ -568,6 +587,241 @@
         </div>
       </div>
     </div>
+    
+
+    <!-- Modal -->
+<div class="modal fade" id="modal-main" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pilih Kategori Lomba</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row cards">
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/visual.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio mt-5">
+                  <p class="cookieDescription poppins">
+                    <span>Digital Innovation Solutions</span> <br />Kategori
+                    SMA/SMK Sederajat
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="innovation.html" target="_blank" class="declineButton">
+                    Daftar
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/digital.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio">
+                  <p class="cookieDescription poppins">
+                    <span>Content Video Reels</span> <br />Kategori
+                    SMA/SMK Sederajat
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="video.html" target="_blank" class="declineButton">
+                    Daftar
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/poster.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio">
+                  <p class="cookieDescription poppins">
+                    <span>Kompetisi Poster Infografis</span> <br />Kategori Mahasiswa
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="poster.html" target="_blank" class="declineButton">
+                    Daftar
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal karya -->
+<div class="modal fade" id="modal-second" tabindex="-1" aria-labelledby="modal-second" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pengumpulan Karya DIGIFEST 2024</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row cards">
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/visual.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio mt-5">
+                  <p class="cookieDescription poppins">
+                    <span>Digital Innovation Solutions</span> <br />Kategori
+                    SMA/SMK Sederajat
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgYApE36pv1TnKQczLm17f5IP-MSoju9x14ueEkMAFA2o_0A/viewform?usp=sf_link" target="_blank" class="declineButton">
+                    Kirim
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/digital.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio">
+                  <p class="cookieDescription poppins">
+                    <span>Content Video Reels</span> <br />Kategori
+                    SMA/SMK Sederajat
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeDF9VKd7TNbScPSEXgs3_IJuwQHMhMmBb-kPKUzms-VefUA/viewform?usp=sf_link" target="_blank" class="declineButton">
+                    Kirim
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/poster.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio">
+                  <p class="cookieDescription poppins">
+                    <span>Kompetisi Poster Infografis</span> <br />Kategori Mahasiswa
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFiIK21Qf8ske_RMqUee9BpKPzIMF5C6lm9rYaWo1XTvDEyQ/viewform?usp=sf_link" target="_blank" class="declineButton">
+                    Kirim
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   </main>
   <div class="pg-footer" id="kontak">
     <footer class="footer">
@@ -597,7 +851,7 @@
             <ul id="menu-legal" class="footer-menu-list">
               <li
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                <a href="#">Guide Book</a>
+                <a href="https://drive.google.com/drive/folders/1Wdp_Ji97cgQF5BqGl90vk7Zmb1TGlzdM?usp=sharing">Guide Book</a>
               </li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page">
                 <a href="#">Kategori Perlombaan</a>
@@ -607,7 +861,7 @@
         </div>
         <div class="footer-content-column">
           <div class="footer-menu">
-            <h2 class="footer-menu-name">Social Meida</h2>
+            <h2 class="footer-menu-name">Social Media</h2>
             <ul id="menu-quick-links" class="footer-menu-list">
               <li class="menu-item menu-item-type-custom menu-item-object-custom"></li>
               <li class="menu-item menu-item-type-post_type menu-item-object-page">
@@ -631,7 +885,7 @@
             <p class="footer-call-to-action-description">
               Hubungi Panitia?
             </p>
-            <a class="footer-call-to-action-button button" href="#" target="_self">
+            <a class="footer-call-to-action-button button" href="https:wa.me//+89649421343" target="_self">
               Contact Person
             </a>
           </div>
@@ -649,12 +903,15 @@
         <div class="footer-copyright-wrapper">
           <p class="footer-copyright-text">
             <a class="footer-copyright-link" href="#" target="_self">
-              ©2024. | Designed By: Alhambra Ferdinando. | DIGIFEST 2024
+              ©2024. | Designed By: Himatekno | DIGIFEST 2024
             </a>
           </p>
         </div>
       </div>
     </footer>
+
+
+
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="script.js"></script>

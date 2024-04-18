@@ -277,7 +277,7 @@ header {
 #carouselExampleFade,
 .hero {
   height: 700px;
-  min-height: 700px; /* Sesuaikan dengan kebutuhan Anda */
+  min-height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
 }
 
 .carousel,
@@ -346,6 +346,10 @@ p {
 .sub-content p {
   text-align: justify;
   /* background-color: #0047b1; */
+}
+
+.bg-ungu {
+  background-color: #6f6aff;
 }
 
 .konsep-lomba {
