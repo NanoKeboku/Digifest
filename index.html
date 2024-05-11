@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digifest 2024</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/60bfabd217.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="/component/logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="nav-child d-flex align-items-center w-100">
+        <img src="component/logo-digifest.png" alt="Logo" width="30" height="24" class="d-flex img-nav" />
+        <div class="nav-item d-flex position-relative gap-5">
+          <a href="#beranda" class="raleway">BERANDA</a>
+          <a href="#tentang" class="raleway">TENTANG</a>
+          <a href="#kategori" class="raleway">KATEGORI</a>
+          <a href="#timeline" class="raleway">TIMELINE</a>
+          <a href="#karya" class="raleway">PENGUMPULAN KARYA</a>
+          
+        </div>
+        <button class="btn btn-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight">
+          <i class="fa-solid fa-bars" style="color: white; font-size: 35px;"></i>
+        </button>
+      </div>
+    </nav>
+    <div class="navbar-fixed pt-4" id="beranda">
+      <a class="navbar-brand" href="#">
+        <img src="component/logo-digifest.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"
+          style="width: 150px; height: auto; padding-left: 20px;" />
+      </a>
+      <div class="nav-item d-flex position-relative gap-5">
+        <a href="#beranda" class="raleway" style="color: #fff;">BERANDA</a>
+        <a href="#tentang" class="raleway">TENTANG</a>
+        <a href="#kategori" class="raleway">KATEGORI</a>
+        <a href="#timeline" class="raleway">TIMELINE</a>
+        <a href="#karya" class="raleway">PENGUMPULAN KARYA</a>
+       
+      </div>
+    </div>
+    <button class="btn btn-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+      aria-controls="offcanvasRight">
+      <i class="fa-solid fa-bars" style="color: white; font-size: 35px;"></i>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"
+      data-bs-backdrop="static" data-bs-keyboard="false">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body d-flex align-content-center">
+        <div class="right-nav d-flex flex-column">
+          <a href="#beranda" class="raleway">HOME</a>
+          <a href="#tentang" class="raleway">ABOUT</a>
+          <a href="#kategori" class="raleway">CATEGORY</a>
+          <a href="#timeline" class="raleway">TIMELINE</a>
+          <a href="#karya" class="raleway">PENGUMPULAN KARYA</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero container-fluid p-0 w-100">
+      <div class="carousel-item d-flex align-items-center justify-content-center active">
+        <div class="hero-mid d-flex">
+          <div data-aos="fade-up" class="hero-text f-flex flex-column justify-content-center">
+            <h1 class="hero-title">
+              Selamat Datang Innovator Muda👋 <br /><span>DIGIFEST 2024</span>
+            </h1>
+            <p class="poppins" style="color: rgb(196, 196, 196);">
+              Sebuah ajang Kompetisi innovasi di bidang teknologi dalam merayakan peringatan Milad Program Studi
+              Teknologi Informasi Universitas Muhammadiyah Purworejo. 🤖
+
+            </p>
+
+            <button class="btn-reg" data-bs-toggle="modal" data-bs-target="#modal-main">
+              <span>IKUTI SEKARANG</span>
+            </button>
+          </div>
+          <div data-aos="fade-up" class="container-img">
+            <img src="component/piala.png" alt="" srcset="" />
+          </div>
+        </div>
+
+        <div class="blue-bg"></div>
+      </div>
+    </div>
+  </header>
+  <main style="height: auto;" id="tentang">
+    <div class="pendahuluan d-flex gap-3 align-content-center justify-content-center">
+      <div class="pendahuluan-img">
+        <div data-aos="fade-right">
+          <img src="component/kit-risk-management-forecasting-and-assessment.gif" alt="" srcset="" />
+        </div>
+      </div>
+
+      <div class="sub-content position-relative d-flex align-items-start flex-column">
+        <div data-aos="fade-up">
+          <h1 class="" style="color: #1d1d1d;">
+            Tema lomba yang pilih DIGI Fest 2024 adalah
+          </h1>
+          <h2 class="poppins fw-semibold">
+            “Generasi Muda Berkarya di Era Digitalisasi 4.0”
+          </h2>
+          <br />
+          <p class="poppins text-wrap">
+            Latar Belakang
+          </p>
+          <p class="poppins text-wrap t-left">
+            Teknologi digital telah menjadi bagian penting dalam kehidupan
+            masyarakat modern. Perkembangan teknologi digital yang semakin
+            pesat telah membawa banyak perubahan, baik dalam aspek sosial,
+            ekonomi, maupun budaya. Perubahan yang dibawa oleh teknologi
+            digital menuntut adanya inovasi-inovasi baru. Inovasi-inovasi
+            tersebut diperlukan untuk menjawab tantangan dan kebutuhan yang
+            ada. Generasi muda merupakan generasi yang tumbuh dan berkembang
+            di era digital. Generasi muda memiliki potensi yang besar untuk
+            berinovasi dalam bidang teknologi digital. <br /><br />Oleh karena
+            itu Himpunan Mahasiswa Teknologi Informasi Universitas
+            Muhammadiyah Purworejo mengadakan Lomba DIGI Fest 2024 yang dapat
+            menjadi wadah bagi para inovator digital untuk menampilkan
+            karya-karya mereka dan berbagi ide-ide baru. Lomba ini juga dapat
+            menjadi sarana untuk mendorong kreativitas generasi muda dan
+            mempersiapkan masa depan yang lebih baik.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="kategori" class="konsep-lomba d-flex flex-column justify-content-center align-items-center">
+      <div data-aos="fade-up">
+        <h1 class="raleway fw-bold">KATEGORI LOMBA</h1>
+      </div>
+      <div class="cards flex-wrap mt-4 d-flex w-75 h-50 gap-5 align-items-center">
+        <div data-aos="fade-up">
+          <div class="card">
+            <span>
+              <img class="img-1" src="component/visual.png" alt="digital" srcset="" />
+            </span>
+            <div class="card-bio">
+              <p class="cookieDescription poppins">
+                <span>Digital Innovation Solutions</span> <br />Kategori
+                SMA/SMK Sederajat
+              </p>
+            </div>
+
+            <div class="buttonContainer">
+              <button onclick="modalBox(1)" class="declineButton">
+                View
+                <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                  <path clip-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                    fill-rule="evenodd"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up">
+          <div class="card">
+            <span>
+              <img src="component/digital.png" alt="" srcset="" />
+            </span>
+            <div class="card-bio">
+              <p class="cookieDescription poppins">
+                <span>Content video Reels</span><br />Kategori SMA/SMK
+                Sederajat
+              </p>
+            </div>
+
+            <div class="buttonContainer">
+              <button onclick="modalBox(2)" class="declineButton">
+                View
+                <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                  <path clip-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                    fill-rule="evenodd"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-up">
+          <div class="card">
+            <span>
+              <img src="component/poster.png" alt="" srcset="" />
+            </span>
+            <div class="card-bio">
+              <p class="cookieDescription poppins">
+                <span>Kompetisi Poster Infografis</span><br />Kategori
+                Mahasiswa
+              </p>
+            </div>
+
+            <div class="buttonContainer">
+              <button onclick="modalBox(3)" class="declineButton">
+                View
+                <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                  <path clip-rule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                    fill-rule="evenodd"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-first">
+      <article class="modal-container">
+        <header class="modal-container-header">
+          <span class="modal-container-title">
+            <h2>Digital Innovation Solutions</h2>
+          </span>
+          <button class="icon-button">
+            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                fill="currentColor"></path>
+            </svg>
+          </button>
+        </header>
+        <section class="modal-container-body rtf">
+          <div class="modal-cnt">
+            <p>
+              Digital Innovation Solution adalah kategori lomba yang mendorong
+              peserta untuk mengembangkan solusi digital yang inovatif untuk
+              memecahkan masalah atau tantangan yang ada di masyarakat. Solusi
+              digital yang dikembangkan dapat berupa aplikasi, sistem
+              informasi, web application atau Inovasi Internet Of Things.
+            </p>
+            <p>Tujuan dari kategori ini adalah untuk:</p>
+            <ul>
+              <li>Mendorong perkembangan teknologi digital di Indonesia</li>
+              <li>
+                Mendukung kreativitas generasi muda dalam bidang teknologi
+                digital
+              </li>
+              <li>
+                Mencari dan mengembangkan talenta-talenta muda di bidang
+                teknologi digital
+              </li>
+            </ul>
+            <p>
+              Peserta kategori ini dapat berasal dari pelajar sekolah SMA/SMK
+              sederajat yang berdomisili di jawa tengah. Peserta dapat
+              membentuk tim atau individu. <br />Tema lomba innovation digital
+              solution DIGIFEST 2024 yaitu “Peran Digitalisasi di Masyarakat“
+            </p>
+          </div>
+        </section>
+        <footer class="modal-container-footer"></footer>
+      </article>
+    </div>
+    <div class="modal modal-second">
+      <article class="modal-container">
+        <header class="modal-container-header">
+          <span class="modal-container-title">
+            <h2>Content video Reels</h2>
+          </span>
+          <button class="icon-button">
+            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                fill="currentColor"></path>
+            </svg>
+          </button>
+        </header>
+        <section class="modal-container-body rtf">
+          <div class="modal-cnt">
+            <p>
+              Innovation digital solution adalah kategori lomba yang mendorong
+              peserta untuk mengembangkan ide inovatif dengan berbentuk konten
+              media konten visual video.
+            </p>
+            <p>Tujuan dari kategori ini adalah untuk:</p>
+            <ul>
+              <li>Mendorong perkembangan teknologi digital</li>
+              <li>
+                Mendukung kreativitas generasi muda untuk mengembangkan ide
+                dan gagasan terkait isu perkembangan teknologi sekarang
+              </li>
+              <li>
+                Mencari dan mengembangkan talenta-talenta muda di bidang
+                teknologi digital
+              </li>
+            </ul>
+            <p>
+              Peserta kategori ini dapat berasal dari pelajar sekolah SMA/SMK
+              sederajat yang berdomisili di jawa tengah. Peserta dapat
+              membentuk tim atau individu.
+            </p>
+            <p>
+              Tema loma video reels DIGIFEST 2024 yaitu “Sadar Phising,
+              Lindungi Diri di Era Digital“
+            </p>
+          </div>
+        </section>
+        <footer class="modal-container-footer"></footer>
+      </article>
+    </div>
+    <div class="modal modal-third">
+      <article class="modal-container">
+        <header class="modal-container-header">
+          <span class="modal-container-title">
+            <h2>Kompetisi Poster Infografis</h2>
+          </span>
+          <button class="icon-button">
+            <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"
+                fill="currentColor"></path>
+            </svg>
+          </button>
+        </header>
+        <section class="modal-container-body rtf">
+          <div class="modal-cnt">
+            <p>
+              Innovation digital solution adalah kategori lomba yang mendorong
+              peserta untuk mengembangkan solusi digital yang inovatif untuk
+              memecahkan masalah atau tantangan yang ada di masyarakat. Solusi
+              digital yang dikembangkan dapat berupa konten media visual
+              berupa gambar.
+            </p>
+            <p>Tujuan dari kategori ini adalah untuk:</p>
+            <ul>
+              <li>Mendorong perkembangan teknologi digital di Indonesia</li>
+              <li>
+                Mendukung kreativitas generasi muda dalam bidang teknologi
+                digital
+              </li>
+              <li>
+                Mencari dan mengembangkan talenta-talenta muda di bidang
+                teknologi digital
+              </li>
+            </ul>
+            <p>
+              Peserta kategori ini adalah Mahasiswa Universitas Muhammadiyah Purworjeo.
+            </p>
+            <p>
+              Tema lomba poter infografis DIGIFEST 2024 yaitu “Sadar Phising,
+              Lindungi Diri di Era Digital“
+            </p>
+          </div>
+        </section>
+        <footer class="modal-container-footer"></footer>
+      </article>
+    </div>
+
+    <div class="container " style="margin: 100px auto;">
+      <div class="row">
+        <h1 class="text-center my-3">Guide Book</h1>
+        <div class="col-md-6 mb-5 m-auto " >
+          <img src="component/poster.png" class="img-fluid " alt="">
+        </div>
+        <div class="col-md-6 m-auto bg-ungu rounded p-5" >
+            <p   class="text-light" data-aos="fade-up">
+              Masih ragu tentang kompetisi DIGIFEST 2024 ?🤔
+            </p>
+            <h3 class="poppins text-light fw-semibold" data-aos="fade-up">
+              Kunjungi dan lihat ketentuan mengenai DIGIFEST melalui Guide Book dibawah ini😎
+            </h3>
+            <br />
+            <a data-aos="fade-up" href="https://drive.google.com/drive/folders/1Wdp_Ji97cgQF5BqGl90vk7Zmb1TGlzdM?usp=sharing" class="btn btn-light text-primary rounded-pill px-4 py-3">Lihat Guide Book</a>
+        </div>  
+        
+      </div>
+    </div>
+
+    <div class="timeline-wrap" id="timeline">
+      <h1 class="raleway fw-bold" data-aos="fade-up">TIMELINE</h1>
+      <div class="container">
+        <section>
+          <div class="container py-5">
+            <div class="main-timeline" data-aos="fade-up">
+              <div class="timeline left">
+                <div class="card-timeline">
+                    <div class=" card-body p-4">
+                  <h3>19 April 2024</h3>
+                  <p class="mb-0">
+                    Pendaftaran dan pengumpulan karya
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline right">
+              <div class="card-timeline">
+                <div class="card-body p-4">
+                  <h3>15 Mei 2024</h3>
+                  <p class="mb-0">
+                    Batas Akhir Pengumpulan Karya
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="timeline left">
+              <div class="card-timeline">
+                    <div class=" card-body p-4">
+                <h3>16 Mei 2024</h3>
+                <p class="mb-0">
+                  Pengumuman 10 inovasi terbaik
+                </p>
+                <p><strong>Khusus lomba inovasi digital </strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline right">
+            <div class="card-timeline">
+              <div class="card-body p-4">
+                <h3>20 Mei 2024</h3>
+                <p class="mb-0">
+                  Presentasi Hasil Karya Khusus kompetisi invoasi dan
+                  Penjurian lomba video dan poster
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline left">
+            <div class="card-timeline">
+                    <div class=" card-body p-4">
+              <h3>22 Mei 2024</h3>
+              <p class="mb-0">
+                Pengumuman Pemenang
+              </p>
+            </div>
+          </div>
+      </div>
+      <div class="timeline right">
+        <div class="card-timeline">
+          <div class="card-body p-4">
+            <h3>27 Mei 2024</h3>
+            <p class="mb-0">
+              Pemberian Hadiah
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </section>
+    </div>
+    </div>
+    <div class="kategori d-flex flex-column align-content-center">
+      <div data-aos="fade-up" class="nav-tab position-relative mt-5 m-auto d-flex">
+        <button class="tab-misi nav-tab-btn d-flex flex-column" onclick="navTab(1)">
+          <i class="fa-solid m-auto fa-rocket"></i>
+          <p>Misi</p>
+          <span class="border-nav"></span>
+        </button>
+        <button class="nav-tab-btn tab-jalur d-flex flex-column" onclick="navTab(3)">
+          <i class="fa-solid m-auto fa-signs-post"></i>
+          <p>Jalur Peserta</p>
+          <span class="border-nav"></span>
+        </button>
+        <button class="nav-tab-btn tab-hadiah d-flex flex-column" onclick="navTab(4)">
+          <i class="fa-solid m-auto fa-gift"></i>
+          <p>Hadiah</p>
+          <span class="border-nav"></span>
+        </button>
+      </div>
+      <div class="kategori-tab">
+        <div data-aos="fade-up"
+          class="mission-tab content1 d-flex w-100 justify-content-center align-items-center position-relative gap-5">
+          <div class="card2 p-3">
+            <p class="text-icon" style="font-size: 25px;">💬</p>
+            <p style="text-align: left;" class="poppins">
+              Mengasah kemampuan berkomunikasi, kreatifitas, problem solving, dan komunikasi dalam tim untuk para
+              generasi muda.
+            </p>
+
+          </div>
+          <div class="card2 p-3">
+            <p class="text-icon" style="font-size: 25px;">🎯</p>
+            <p style="text-align: left;" class="poppins">
+              Mewadahi para innovator muda dalam sebuah karya yang dimilikinya.
+            </p>
+          </div>
+          <div class="card2 p-3">
+            <p class="text-icon" style="font-size: 25px;">💡</p>
+            <p style="text-align: left;" class="poppins">
+              Mengembangkan ide-ide dan innovasi para pelajar untuk membangun potensi intelektual dalam bidang teknologi
+              digital. </p>
+          </div>
+        </div>
+        <div data-aos="fade-up"
+          class="jalur-tab content1 d-flex w-100 h-100 justify-content-center align-items-center position-relative gap-5">
+          <div class="card2">
+            <img src="component/school.png" alt="SMA" srcset="">
+            <p style="text-align: center;">SMA/SMK/MA <br> Sederajat</p>
+          </div>
+          <div class="card2">
+            <img class="mhs" src="component/collage.png" alt="Mahasiswa" srcset="">
+            <p class="mt-4">Mahasiswa</p>
+          </div>
+        </div>
+        <div data-aos="fade-up"
+          class="gift-tab content1 d-flex w-100 h-100 justify-content-center align-items-center position-relative gap-5">
+          <div class="card2 justify-content-start pt-3 gap-3 align-items-center">
+            <img style="width: 110px;" src="component/money.png" alt="" srcset="">
+            <p><strong>Uang Tunai</strong> </p>
+          </div>
+          <div class="card2 justify-content-start pt-3 gap-3 align-items-center">
+            <img src="component/thropy.png" alt="" srcset="">
+            <p><strong>Thropy</strong> </p>
+          </div>
+          <div class="card2 justify-content-start pt-3 gap-3 align-items-center">
+            <img style="width: 150px; margin-bottom: 13px;" src="component/Certification.png" alt="" srcset="">
+            <p><strong>Certification</strong> </p>
+          </div>
+          <div class="card2 justify-content-start pt-3 gap-3 align-items-center">
+            <img style="width: 100px;" src="component/souvenir.png" alt="" srcset="">
+            <p><strong>Souvenir</strong> </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div  class="news d-flex justify-content-center align-items-center">
+      <div class="news-bg row d-flex justify-content-center align-items-center">
+        <div data-aos="fade-up" class="left-news col-xl-6 d-flex flex-column m-auto">
+          <img src="component/smile.png" alt="" srcset="">
+          <h1 class="text-center">
+            Daftarkan diri anda sekarang <br />dengan klik tombol dibawah ini
+          </h1>
+          <button  class="animated-button" style="top: -50px; position: relative;" data-bs-toggle="modal" data-bs-target="#modal-main">
+            <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+            <span class="text">Daftar Sekarang</span>
+            <span class="circle"></span>
+            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+          </button>
+        </div>
+        <div id="karya" data-aos="fade-up"
+          class="right-news w-50 m-auto col-xl-6 d-flex flex-column justify-content-center align-items-center">
+          <img src="component/casual-life-3d-girl-with-tablet-and-working-process-on-desktop.png" alt="" srcset="">
+          <h1 class="text-center">
+            Pengumpulan Karya
+          </h1>
+          <button class="animated-button" style="top: -50px; position: relative;" data-bs-toggle="modal" data-bs-target="#modal-second">
+            <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+            <span class="text">Kirim</span>
+            <span class="circle"></span>
+            <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+              </path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Modal -->
+<div class="modal fade" id="modal-main" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pilih Kategori Lomba</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row cards">
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/visual.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio mt-5">
+                  <p class="cookieDescription poppins">
+                    <span>Digital Innovation Solutions</span> <br />Kategori
+                    SMA/SMK Sederajat
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="innovation.html" target="_blank" class="declineButton">
+                    Daftar
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/digital.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio">
+                  <p class="cookieDescription poppins">
+                    <span>Content Video Reels</span> <br />Kategori
+                    SMA/SMK Sederajat
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="video.html" target="_blank" class="declineButton">
+                    Daftar
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/poster.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio">
+                  <p class="cookieDescription poppins">
+                    <span>Kompetisi Poster Infografis</span> <br />Kategori Mahasiswa
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScgSLdni3Zwp68RGnbNQSs2jDpnEsLcqr5-emgzd8_Jus0TlA/viewform?usp=sf_link" target="_blank" class="declineButton">
+                    Daftar
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal karya -->
+<div class="modal fade" id="modal-second" tabindex="-1" aria-labelledby="modal-second" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pengumpulan Karya DIGIFEST 2024</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row cards">
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/visual.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio mt-5">
+                  <p class="cookieDescription poppins">
+                    <span>Digital Innovation Solutions</span> <br />Kategori
+                    SMA/SMK Sederajat
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgYApE36pv1TnKQczLm17f5IP-MSoju9x14ueEkMAFA2o_0A/viewform?usp=sf_link" target="_blank" class="declineButton">
+                    Kirim
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/digital.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio">
+                  <p class="cookieDescription poppins">
+                    <span>Content Video Reels</span> <br />Kategori
+                    SMA/SMK Sederajat
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdeDF9VKd7TNbScPSEXgs3_IJuwQHMhMmBb-kPKUzms-VefUA/viewform?usp=sf_link" target="_blank" class="declineButton">
+                    Kirim
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div data-aos="fade-up">
+              <div class="card" style="width: auto;height: auto;">
+                <span>
+                  <img class="img-1" src="component/poster.png" alt="digital" srcset="" />
+                </span>
+                <div class="card-bio">
+                  <p class="cookieDescription poppins">
+                    <span>Kompetisi Poster Infografis</span> <br />Kategori Mahasiswa
+                  </p>
+                </div>
+    
+                <div class="buttonContainer mt-5">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFiIK21Qf8ske_RMqUee9BpKPzIMF5C6lm9rYaWo1XTvDEyQ/viewform?usp=sf_link" target="_blank" class="declineButton">
+                    Kirim
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </a>
+                  <!-- <button onclick="modalBox(1)" class="declineButton">
+                    View
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                      <path clip-rule="evenodd"
+                        d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z"
+                        fill-rule="evenodd"></path>
+                    </svg>
+                  </button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </main>
+  <div class="pg-footer" id="kontak">
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-content-column">
+          <div class="footer-logo">
+            <a class="footer-logo-link" href="#">
+              <img src="component/logo-digifest.png" style="width: 200px;" alt="" />
+            </a>
+          </div>
+          <div class="footer-menu">
+            <p class="poppins" style="color: white; font-weight: 200; font-size: 13px;">
+              DifiFest adalah DIGI Fest adalah sebuah ajang kompetisi tingkat Provinsi dalam bidang teknologi informasi
+              yang diselenggarakan oleh Himpunan Mahasiswa Teknologi Informasi Universitas Muhammadiyah Purworejo dalam
+              rangka peringatan Milad Program Studi Teknologi Informasi Ke-7
+            </p>
+            <div class="logo-footer">
+              <img style="width: 60px;" src="component/logo ump.png" alt="Universitas Muhammadiyah Purworejo" >
+              <img style="width: 55px; height: 55px;" src="component/psti.png" alt="PSTI" >
+              <img style="width: 50px; height: 50px;" src="component/logo hima.png" alt="HIMATEKNO" >
+            </div>
+          </div>
+        </div>
+        <div class="footer-content-column">
+          <div class="footer-menu">
+            <h2 class="footer-menu-name">Panduan</h2>
+            <ul id="menu-legal" class="footer-menu-list">
+              <li
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+                <a href="https://drive.google.com/drive/folders/1Wdp_Ji97cgQF5BqGl90vk7Zmb1TGlzdM?usp=sharing">Guide Book</a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="#">Kategori Perlombaan</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-content-column">
+          <div class="footer-menu">
+            <h2 class="footer-menu-name">Social Media</h2>
+            <ul id="menu-quick-links" class="footer-menu-list">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom"></li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="https://www.instagram.com/um_purworejo?igsh=MTVrbWhyamRmdzB2Mw=="><i class="fa-brands fa-instagram" style="color: #ffffff;"></i>   @um_purworejo</a>
+              </li>
+             
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="https://www.instagram.com/psti.umpwr?igsh=ODBiMjJzbGo0eTJ4"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i> @psti.umpwr</a>
+              </li>
+              <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
+                <a href="https://www.instagram.com/himatekno_umpwr?igsh=enM5Z3o2cTUwc3Yz"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i> @himatekno_umpwr</a>
+              </li> 
+              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <a href="https://www.tiktok.com/@himatekno.official?_t=8lkG4fvu8wr&_r=1"><i class="fa-brands fa-tiktok" style="color: #ffffff;"></i> himatekno.official</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-content-column">
+          <div class="footer-call-to-action">
+            <h2 class="footer-call-to-action-title">Kontak</h2>
+            <p class="footer-call-to-action-description">
+              Hubungi Panitia?
+            </p>
+            <a class="footer-call-to-action-button button" href="https:wa.me//+89649421343" target="_self">
+              Contact Person
+            </a>
+          </div>
+          <div class="footer-call-to-action">
+            <h2 class="footer-call-to-action-title">Email</h2>
+            <p class="footer-call-to-action-link-wrapper">
+              <a class="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self">
+                himatekno@gmail.com
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="footer-copyright-wrapper">
+          <p class="footer-copyright-text">
+            <a class="footer-copyright-link" href="#" target="_self">
+              ©2024. | Designed By: Himatekno | DIGIFEST 2024
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
